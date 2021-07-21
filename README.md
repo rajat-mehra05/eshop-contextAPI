@@ -5,6 +5,3 @@
 - createContext, provide context and consumeContext using useContext.
 
 
-## bugs
-- The cart page is showing items in column and not in row.
-  (will fix it soon)
