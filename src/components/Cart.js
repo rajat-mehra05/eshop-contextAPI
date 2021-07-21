@@ -12,10 +12,10 @@ const CartShop = () => {
   }, [cart]);
 
   return (
-    <div>
-      <span> My Cart 🛒 </span> <br />
-      <span> Total: Rs {total} </span>
-      <div className="prodcut-item">
+    <div style={{ textAlign: "center" }}>
+      <span style={{ fontSize: 30 }}> My Cart 🛒 </span> <br />
+      <span style={{ fontSize: 30 }}> Total: Rs {total} </span>
+      <div className="product-item">
         {cart.map((prod) => (
           <SingleProduct prod={prod} key={prod.id} />
         ))}
